@@ -139,30 +139,6 @@ class CreateCase(unittest.TestCase):
         # # 选择是否要加外聘律师（不需要）
         # driver.find_element_by_xpath('/html/body/div[1]/div[6]/div[1]/div[1]/div[5]/div[4]/div/div[1]/button').click()
         # time.sleep(5)
-        # 点击某案件
-        driver.find_element_by_xpath('/html/body/div[1]/div[6]/div[1]/div[4]/div/div[2]/div[1]/a').click()
-        # 勾选六项审查
-        driver.find_element_by_xpath('/html/body/div[1]/div[6]/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/a/div[2]/div[1]/label/span[1]/span').click()
-        # 点击查看更多按钮
-        driver.find_element_by_xpath('/html/body/div[1]/div[6]/div[1]/div[2]/div/div[3]/div[10]/button').click()
-        # 点击法律审查新增按钮
-        driver.find_element_by_xpath('/html/body/div[1]/div[6]/div[1]/div[2]/div/div[3]/div[3]/div/div/div[1]/div[2]/span/a').click()
-        time.sleep(3)
-        # 输入会议标题
-        driver.find_element_by_xpath('/html/body/div[1]/div[6]/div[1]/div[3]/input').send_keys('开会会议')
-        # 输入参会人员
-        driver.find_element_by_xpath('/html/body/div[1]/div[6]/div[1]/div[5]/div/textarea').send_keys('小花、小草')
-        # 输入会议地点
-        driver.find_element_by_xpath('/html/body/div[1]/div[6]/div[1]/div[6]/div/textarea').send_keys('鼎丰大厦')
-        # 输入会摘要
-        driver.find_element_by_xpath('/html/body/div[1]/div[6]/div[1]/div[7]/div/textarea').send_keys('1111111')
-        # 点击上传文件
-        driver.find_element_by_xpath('//*[@id="file"]').click()
-        time.sleep(5)
-        os.system(r'C:\Users\sanmao\Desktop\file.exe')
-        time.sleep(10)
-        driver.find_element_by_xpath('/html/body/div[1]/div[6]/div[1]/div[10]/div/button/label').click()
-        time.sleep(5)
 
 
 
